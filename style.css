@@ -1,3 +1,11 @@
+* {
+    margin:0px;
+}
+
+body {
+    background-color: #3F3F3F;
+}
+
 .page {
     display: flex;
     flex-direction: rows;
@@ -10,14 +18,31 @@ img {
     height: auto;
 }
 
+.lable-input {
+    display:flex;
+}
+
+.flex-rows {
+    display:flex;
+    flex:auto;
+    justify-content:space-between;
+    margin-top:10px;
+}
+
 .flex-label-input {
     display:flex;
     flex-direction: column;
-    margin-bottom: 5px;
 }
 
 label {
-    font-size:small;
+    font-size:8pt;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
+    color: #C8C8C8;
+    margin-left:10px;
+}
+
+input {
+    border: 0;
+    margin-left:10px;
 }
